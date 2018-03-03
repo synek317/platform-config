@@ -1,0 +1,10 @@
+[package]
+name = "platform-config"
+version = "0.1.0"
+authors = ["Marcin Sas-Szymanski <marcin.sas-szymanski@anixe.pl>"]
+
+[dependencies]
+platform-config-derive = { path = "platform-config-derive" }
+config = "*"
+structopt = "*"
+structopt-derive = "*"
