@@ -3,11 +3,15 @@ extern crate syn;
 #[macro_use]
 extern crate quote;
 extern crate proc_macro2;
+extern crate structopt;
+extern crate structopt_derive;
 
 use proc_macro::TokenStream;
 use syn::*;
 use syn::punctuated::Punctuated;
 use syn::token::{Comma};
+use structopt::*;
+use structopt_derive::*;
 
 #[proc_macro_derive(PlatformConfig, attributes(platformconfig))]
 pub fn platformconfig(input: TokenStream) -> TokenStream {

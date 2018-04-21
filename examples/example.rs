@@ -1,8 +1,5 @@
 #[macro_use]
 extern crate platform_config;
-#[macro_use]
-extern crate structopt;
-
 use platform_config::*;
 
 #[derive(PlatformConfig, Debug)]

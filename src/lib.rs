@@ -2,10 +2,17 @@
 
 #[macro_use]
 extern crate platform_config_derive;
+#[macro_use]
+extern crate structopt_derive;
+
 pub extern crate config;
+pub extern crate structopt;
 
 #[doc(hidden)]
 pub use platform_config_derive::*;
+#[doc(hidden)]
+pub use structopt_derive::*;
+
 
 use std::path::Path;
 use config::Config;
