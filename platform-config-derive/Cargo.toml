@@ -2,6 +2,12 @@
 name = "platform-config-derive"
 version = "0.1.0"
 authors = ["Marcin Sas-Szymanski <marcin.sas-szymanski@anixe.pl>"]
+description = "..."
+documentation = "https://docs.rs/platform-config-derive"
+repository = "https://github.com/synek317/platform-config"
+keywords = ["structopt", "cli", "derive", "config"]
+categories = ["command-line-interface"]
+license = "Apache-2.0/MIT"
 
 [dependencies]
 syn = "0.12"
